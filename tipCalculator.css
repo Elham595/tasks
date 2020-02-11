@@ -1,0 +1,37 @@
+body{box-sizing: border-box;
+     background-color: darkred;}
+/***************************** parent div *************************/
+.parent{
+    height: 500px;
+    width: 350px;
+    background-color: white;
+    border:1px gray solid;
+    border-radius: 15px;
+    align-items: center;
+    position: absolute; left: 550px; top:100px;}
+/*************************** parent heading 2 ************************/
+.parent h2{margin-top: 0;
+          padding-top: 0;
+         height: 40px;
+         text-align: center;
+         background-color: rgb(87, 7, 7);
+         color: white;
+         border-top-right-radius: 15px;
+         border-top-left-radius: 15px;}
+/**************************** div of label ******************************/
+.parent .Text{margin: 15px;}
+/***************************** div of input ****************************/
+.parent .Data{margin: 20px;}
+/***************************** select *********************************/
+.parent #selection{margin: 20px;}
+/************************** calculate button *************************/
+.parent button{background-color: crimson; 
+               text-align: center;
+               margin-left: 110px;
+               padding: 10px;}
+/************************* parent heading 3 ***************************/
+.parent h3{margin: 20px;
+           text-align: center;}
+/*************************** result ****************************/
+.parent #amount{margin: 20px;
+                text-align: center;}

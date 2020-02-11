@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TipCalculator</title>
+        <link rel="stylesheet" href="tipCalculator.css"/>
+     <!--<meta charset="utf8"/>-->
+    </head>
+    <body>
+        <!------------------- the whole tip --------------------->        
+        <div class="parent">
+                <h2>TIP CALCULATOR</h2>
+                <!------------------- the bill --------------------->
+                <div>
+                    <div class="Text"><label>How much was your bill?</label></div>
+                    <div class="Data">$<input id="input1" type="text" name="m" value="" required></div>
+                </div>
+                <!------------------- the service --------------------->
+                <div>
+                    <div><label class="Text">How was your service?</label></div>
+                    <select id="selection">
+                        <option value="5">Terrible - 5%</option>
+                        <option value="10">Bad - 10%</option>
+                        <option value="15">Ok - 15%</option>
+                        <option value="20">Good - 20%</option>
+                        <option value="30">Outstanding - 30%</option>
+                    </select>
+                </div>
+                <!------------------- number of people --------------------->
+                <div>
+                    <div><label class="Text">How many people are sharing the bill?</label></div>
+                    <div class="Data">$<input id="input2" type="text" name="p" value="" required></div>
+                </div>
+                <button id="btn">CALCULATE!</button>
+            
+                <h3>TIP AMOUNT</h3>
+                 <!------------------------ result ---------------------------->
+                <div id="amount"></div>
+                <h3>each</h3>
+       </div>
+        <script src="tipCalculator.js"></script>
+    </body>
+</html>
